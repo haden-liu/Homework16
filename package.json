@@ -4,12 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "heroku-postbuild": "npm run build"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "lite-server": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -23,11 +20,10 @@
   "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
   "dependencies": {
     "compression": "^1.7.4",
-    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "lite-server": "^2.5.3",
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1"
   }
-
 }
+
